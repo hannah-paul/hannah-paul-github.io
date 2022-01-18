@@ -1,0 +1,11 @@
+---
+title: ""
+---
+
+<p><font size="4">**The Randomizer:**<br>
+*A tool to foster participation and reduce instructors' unconscious biases*</font></p>
+
+
+Part of my teaching philosophy is to foster a learning environment where students actively participate in class. I am particularly interested in strategies that address instructors' unconscious biases. With that goal in mind, I programmed "The Randomizer," an R function designed to assist instructors in incentivizing and grading participation. "The randomizer" randomly selects students to participate, thereby creating the opportunity for students that would otherwise not express their opinions to do so (and to gain confidence in the process). Among the function's many features, it automatically creates a CSV file with students' participation and grades throughout the semester. 
+
+The Randomizer function and complete documentation is available <a href="https://github.com/andrea-junqueira/TheRandomizer" target="_blank">here.</a>

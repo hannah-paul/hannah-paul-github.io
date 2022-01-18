@@ -1,0 +1,35 @@
+name: "my-website"
+output_dir: "."
+
+navbar:
+  title: "Andrea Junqueira"
+  right:
+
+    - text: "Home"
+      href: index.html     
+
+    - text: "Dissertation"
+      href: dissertation.html
+
+    - text: "Research"
+      href: research.html
+    
+    - text: "Teaching"
+      menu:
+        - text: "Experience"
+          href: teaching.html
+        - text: "Resources"
+          href: resources_teaching.html
+
+    - text: "CV"
+      href: "./Junqueira_CV.pdf"
+      class: "download"
+
+    - text: "Contact"
+      href: contact.html  
+ 
+    - icon: fa-github fa-lg
+      href: http://github.com/andrea-junqueira/
+output:
+  html_document:
+    theme: yeti
