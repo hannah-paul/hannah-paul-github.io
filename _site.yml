@@ -33,3 +33,5 @@ navbar:
 output:
   html_document:
     theme: yeti
+    highlight: zenburn
+    css: "styles.css"
