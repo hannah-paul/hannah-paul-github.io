@@ -10,4 +10,4 @@ Part of my teaching philosophy is to foster a learning environment where student
 <br/> 
 I thank Professor Guy Whitten for showing me the many ways randomization could be helpful in a classroom setting.
 
-The Randomizer function and complete documentation is available <a href="https://github.com/andrea-junqueira/TheRandomizer" target="_blank">here.</a>
+The Randomizer function and complete documentation are available <a href="https://github.com/andrea-junqueira/TheRandomizer" target="_blank">here.</a>
