@@ -1,5 +1,6 @@
 ---
 title: ""
+pagetitle: "Andrea Junqueira"
 ---
 
 <img src="/home/andrea/Dropbox/website/andrea-junqueira.github.io/bruno-thethe-br.jpg" class="inline" width="1300"/>

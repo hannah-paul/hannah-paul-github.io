@@ -1,5 +1,6 @@
 ---
 title: ""
+pagetitle: "Randomizing Students"
 ---
 
 <p><font size="4">**The Randomizer:**<br>
