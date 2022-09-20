@@ -81,8 +81,8 @@ Rapid urbanization increases the need to produce public goods, particularly in d
 
 <font size="3"> Cheibub, José, Andrea Junqueira, and Thiago Moreira. “A War of All Against All? Analysing Spatial Dependence in Intraparty Competition in Open-list Proportional Representation Systems.” *In progress*. </font>
 
-<button class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#BlockName7" center> Abstract </button>  
-<div id="BlockName7" class="collapse">  
+<button class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#BlockName10" center> Abstract </button>  
+<div id="BlockName10" class="collapse">  
 
 In open-list proportional representation (OLPR) systems, candidates must obtain personal votes to succeed. A general expectation about these systems is that they induce intraparty competition and, ultimately, lead to weak political parties. Recent work has challenged this view, suggesting that even under very permissive conditions, candidate lists reflect a significant degree of coordination, which prevents the emergence of internecine competition among co-partisans. In this paper we develop a measure of intraparty competition at the level of the party list. We implement this measure with data from elections for the Brazilian national Chamber of Deputies at the precinct level. We show, first, that our measure detects the presence of a significant degree of intraparty competition but that, second, there is considerable variation across parties and across districts in how well the lists are coordinated. We explore some of the reasons for this variation and conclude with a discussion of next steps in research on open-list proportional representation electoral systems.
 
