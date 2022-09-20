@@ -13,7 +13,8 @@
 
 <title>Randomizing Students</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -46,6 +47,7 @@
 
 
 
+
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
 
@@ -70,6 +72,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -222,7 +227,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -238,13 +243,13 @@ $(document).ready(function () {
   <a href="index.html">Home</a>
 </li>
 <li>
-  <a href="dissertation.html">Dissertation</a>
+  <a href="dissertation.html">Book Project</a>
 </li>
 <li>
   <a href="research.html">Research</a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Teaching
      
     <span class="caret"></span>
@@ -284,11 +289,34 @@ $(document).ready(function () {
 
 
 <p>
-<font size="4"><strong>The Randomizer:</strong><br> <em>A tool to foster participation and reduce instructors’ unconscious biases</em></font>
+<font size="4"><strong>The Randomizer:</strong><br> <em>A tool to foster
+participation and reduce instructors’ unconscious biases</em></font>
 </p>
-<p>Part of my teaching philosophy is to foster a learning environment where students actively participate in class. I am particularly interested in strategies that address instructors’ unconscious biases. With that goal in mind, I programmed “The Randomizer,” an R function designed to assist instructors in incentivizing and grading participation. “The Randomizer” randomly selects students to participate, thereby creating the opportunity for students that would otherwise not express their opinions to do so (and to gain confidence in the process). It provides a clear and transparent way to create engagement while eliminating the practical difficulties instructors face in registering participation points.</p>
-<p>The inspiration for “The Randomizer” came from one of Professor Guy Whitten’s courses. He created the very first randomizer, a Stata do-file with which he would invite students to answer questions in class. “The Randomizer” advances the do-file by i) solving all the practical difficulties of keeping track of participation points and ii) by incorporating students’ participation history to create conditional probabilities. Among the function’s many features, it automatically creates a CSV file with students’ participation and grades throughout the semester, prioritizes students who participated the least when creating the draws (particularly helpful in large classrooms), and allows instructors to easily account for students on temporary leave (particularly useful during pandemic times).</p>
-<p>The Randomizer function and complete documentation are available <a href="https://github.com/andrea-junqueira/TheRandomizer" target="_blank">here.</a></p>
+<p>Part of my teaching philosophy is to foster a learning environment
+where students actively participate in class. I am particularly
+interested in strategies that address instructors’ unconscious biases.
+With that goal in mind, I programmed “The Randomizer,” an R function
+designed to assist instructors in incentivizing and grading
+participation. “The Randomizer” randomly selects students to
+participate, thereby creating the opportunity for students that would
+otherwise not express their opinions to do so (and to gain confidence in
+the process). It provides a clear and transparent way to create
+engagement while eliminating the practical difficulties instructors face
+in registering participation points.</p>
+<p>The inspiration for “The Randomizer” came from one of Professor Guy
+Whitten’s courses. He created the very first randomizer, a Stata do-file
+with which he would invite students to answer questions in class. “The
+Randomizer” advances the do-file by i) solving all the practical
+difficulties of keeping track of participation points and ii) by
+incorporating students’ participation history to create conditional
+probabilities. Among the function’s many features, it automatically
+creates a CSV file with students’ participation and grades throughout
+the semester, prioritizes students who participated the least when
+creating the draws (particularly helpful in large classrooms), and
+allows instructors to easily account for students on temporary leave
+(particularly useful during pandemic times).</p>
+<p>The Randomizer function and complete documentation are available
+<a href="https://github.com/andrea-junqueira/TheRandomizer" target="_blank">here.</a></p>
 
 
 

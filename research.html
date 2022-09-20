@@ -13,7 +13,8 @@
 
 <title>research.knit</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -46,6 +47,7 @@
 
 
 
+
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
 
@@ -70,6 +72,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -222,7 +227,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -238,13 +243,13 @@ $(document).ready(function () {
   <a href="index.html">Home</a>
 </li>
 <li>
-  <a href="dissertation.html">Dissertation</a>
+  <a href="dissertation.html">Book Project</a>
 </li>
 <li>
   <a href="research.html">Research</a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Teaching
      
     <span class="caret"></span>
@@ -283,16 +288,256 @@ $(document).ready(function () {
 </div>
 
 
-<p><font size="6"> Publications, Works Under Review and in Progress</font></p>
-<p><font size="3"> Barberia, Lorena, Maria Leticia Claro Oliveira, Andrea Junqueira, Natalia Moreria, and Guy Whitten. 2021. “Should I Stay or Should I Go? Embracing Causal Heterogeneity in the Study of Pandemic Policy and Citizen Behavior.” <em>Social Science Quartely</em>. Available here: <a href="https://onlinelibrary.wiley.com/doi/10.1111/ssqu.13037" class="uri">https://onlinelibrary.wiley.com/doi/10.1111/ssqu.13037</a>.</font></p>
-<p><font size="3"> Junqueira, Andrea, and Patrick Cunha Silva. “Strengthening the Party, Weakening the Women: Unforeseen Consequences of Strengthening Institutions.” <em>Under review</em>. </font></p>
-<p><font size="3"> Junqueira, Andrea, Ali Kagalwala, and Christine Lipsmeyer. “What’s Your Problem? How Issue Ownership and Partisan Discourse Influence Personal Concerns.” <em>Under review</em>. </font></p>
-<p><font size="3"> Junqueira, Andrea. “Por Que Mano Dura? Understanding the politics behind aggressive crime-fighting policies.” <em>In Progress</em>. </font></p>
-<p><font size="3"> Junqueira, Andrea, Ali Kagalwala, Andrew Philips, and Guy Whitten. “Endogenous Pie: Modeling Simultaneity in Dynamic Models of Compositional Outcomes.” <em>In progress</em>. </font></p>
-<p><font size="3"> Junqueira, Andrea, Thiago Silva, and Guy Whitten. “What about us? Nativism, Populism, and Electoral Accountability” <em>In progress</em>. </font></p>
-<p><font size="3"> Junqueira, Andrea, Thiago Silva, and Guy Whitten. “Are All Coalition Parties Treated the Same? The Costs of Being a Coalition Member.” <em>In progress</em>. </font></p>
-<p><font size="3"> Cheibub, Andrea Junqueira, and Thiago Moreira. “Who gets represented? Income and Electoral Participation in Brazilian Elections.” <em>In progress</em>. </font></p>
-<p><font size="3"> Junqueira, Andrea, Ali Kagalwala, and Christine Lipsmeyer. “How Much Can Governments Truly Change Budgets? Fiscal Institutions and Budgetary Volatility.” <em>In progress</em>. </font></p>
+<p><font size="6"> Publications, and Works Under Review</font></p>
+<p><font size="3"> Barberia, Lorena, Maria Leticia Claro Oliveira,
+Andrea Junqueira, Natalia Moreria, and Guy Whitten. 2021. “Should I Stay
+or Should I Go? Embracing Causal Heterogeneity in the Study of Pandemic
+Policy and Citizen Behavior.” <em>Social Science Quartely</em>.
+Available here: <a
+href="https://onlinelibrary.wiley.com/doi/10.1111/ssqu.13037"
+class="uri">https://onlinelibrary.wiley.com/doi/10.1111/ssqu.13037</a>.</font></p>
+<button class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#BlockName" center>
+Abstract
+</button>
+<div id="BlockName" class="collapse">
+<p><em>Objective</em>: To test for multicausality between government
+policy, health outcomes, economic performance, and citizen behavior
+during the COVID-19 global pandemic. <em>Methods</em>: We perform
+Granger-causality tests to explore the interrelationship between four
+endogenous variables, social distancing policy, home isolation, balance
+rate, and average weekly COVID-19 deaths, in the 26 states of Brazil. As
+exogenous variables, we included a linear time trend and a dummy for the
+week in which the World Health Organization (WHO) declared COVID-19 a
+global pandemic. <em>Results</em>: Our analysis of Granger causal
+ordering between the four variables demonstrates that there is
+significant heterogeneity across the Brazilian federation. These
+findings can be interpreted as underscoring that there is no common
+model applicable to all states, and that the dynamics are
+context-dependent. <em>Conclusion</em>: Our suggested approach allows
+researchers to account for the complex interrelationship between
+government policy, citizen behavior, the economy, and COVID-related
+health outcomes.</p>
+</div>
+<p><br /></p>
+<p><font size="3"> Junqueira, Andrea, and Patrick Cunha Silva.
+“Strengthening the Party, Weakening the Women: Unforeseen Consequences
+of Strengthening Institutions.” <em>Second round of review, The Journal
+of Politics</em>. </font></p>
+<button class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#BlockName2" center>
+Abstract
+</button>
+<div id="BlockName2" class="collapse">
+<p>The party politics literature suggests that an institutionalized
+party system can be key for well-functioning democracies. Do the
+benefits of strong parties also extend to women’s descriptive
+representation? We argue that increasing parties’ strength can
+perpetuate and even intensify parties’ pre-existing patterns of
+exclusion of particular groups, including women, when elites are
+gender-biased. While stronger parties are better able to carry out their
+organizational goals, we contend that increasing gender equity is often
+not part of such goals. To evaluate this argument, we combine an
+exogenous electoral reform that increased parties’ ability to control
+their members in Brazil with a regression discontinuity design. We find
+that while the reform increased parties’ ability to pursue their
+organizational goals, it increased the gap in votes between men and
+women. Further, we demonstrate that the behavior of men towards women
+co-partisans drives this pattern. These findings highlight the
+unintended consequences of institutional engineering.</p>
+</div>
+<p><br /></p>
+<p><font size="3"> Junqueira, Andrea, Ali Kagalwala, and Christine
+Lipsmeyer. “What’s Your Problem? How Issue Ownership and Partisan
+Discourse Influence Personal Concerns.” <em>Accepted, Social Science
+Quartely</em>. </font></p>
+<button class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#BlockName3" center>
+Abstract
+</button>
+<div id="BlockName3" class="collapse">
+<p><em>Objective</em>: Politics around the world has become more
+divisive. We ask if the influence of far-right parties extends to
+personal concerns and argue that a theory combining issue ownership with
+partisan discourse can explain personal policy salience.
+<em>Method</em>: Using aggregate Eurobarometer data, we create
+compositional models to estimate the effect of partisan discourse on
+pocketbook policy concerns. We focus on whether these elite messages
+influence concerns differently depending on the presence of a far-right
+party. <em>Results</em>: We find that more partisan discussion about
+law-and-order issues influences relative personal concerns on security
+and immigration issues across ideological groups when a far-right party
+is present. <em>Conclusions</em>: Our findings suggest that an “issue
+owning” party can alter how people interpret politics and view their own
+concerns. Far-right parties influence the perceptions of people across
+ideologies. Research showed that these parties can influence parties and
+voters; we show that they can shape personal perceptions.</p>
+</div>
+<p><br /></p>
+<p><font size="3"> Junqueira, Andrea, Thiago Silva, and Guy Whitten.
+“What About Us? Political Competition, Economic Performance,
+Immigration, and Nativist Appeals.” <em>Accepted, Social Science
+Quartely</em>. </font></p>
+<button class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#BlockName4" center>
+Abstract
+</button>
+<div id="BlockName4" class="collapse">
+<p><em>Objective</em>: To develop and test theoretical expectations
+about when political parties will make more or fewer nativist appeals in
+their electoral campaigns. <em>Methods</em>: We use spatial
+autoregressive models to test our claims about the ways in which
+electoral competition drives nativist appeals. <em>Results</em>: We find
+strong support for our theoretical expectations on how spatial and
+temporal processes influence parties’ nativist appeals. We also find
+strong support for our expectations on how the percentage of
+foreign-born population shapes nativist appeals by government parties
+and how economic performance shapes nativist appeals by opposition
+parties. <em>Conclusion</em>: Spatial party competition conditions the
+relationship between economic performance, immigration, and parties’
+nativist appeals, revealing the strategic behavior of political parties
+in their choices of when to make nativist appeals more or less prominent
+in their electoral campaigns.</p>
+</div>
+<p><br /></p>
+<p><font size="6"> Selected Works in Progress</font></p>
+<p><font size="3"> Junqueira, Andrea. “Socioeconomic Differences in
+Electoral Responses to Crime: How Poverty Reduces Politicians’
+Incentives to Reform Security Policies.” <em>In Progress</em>.
+</font></p>
+<button class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#BlockName5" center>
+Abstract
+</button>
+<div id="BlockName5" class="collapse">
+<p>In democracies, how can coercive security policies that violate the
+rights of many be so pervasive, even when those most affected by their
+negative consequences are a large share of the population? I argue that
+the explanation can be found by examining voters’ incentives to demand
+security vis-à-vis other policies. Among low-income citizens, security
+concerns compete with other immediate needs, including food and shelter,
+thereby reducing the relative importance of violence as the primary
+driver of political demands. In response, strategic politicians become
+less responsive to the preferences of the poor on this policy dimension.
+With a multi-method research approach, I test the implications of my
+theory using a difference-in-differences-in-differences (DDD) design of
+electoral results and an original survey experiment with politicians. I
+find that low-income voters are less responsive to violence shocks and
+that politicians emphasize security concerns less when trying to attract
+the vote of low-income citizens relative to the wealthy.</p>
+</div>
+<p><br /></p>
+<p><font size="3"> Cooperman, Alicia, Andrea Junqueira, Thiago Moreira,
+and Manuela Muñoz. “How do Mega Cities Decentralize Local
+Representation? Precinct-Level Voting Behavior and Municipal Service
+Provision: Evidence from Brazil and Colombia.” <em>In progress</em>.
+</font></p>
+<button class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#BlockName7" center>
+Abstract
+</button>
+<div id="BlockName7" class="collapse">
+<p>Rapid urbanization increases the need to produce public goods,
+particularly in developing countries, where underprovision and unequal
+access to services are common. Many public services and development
+projects are tied to specific neighborhoods, where citizens vote at
+polling stations whose vote shares are publicly known. We argue that
+even in “at large electoral systems,” the local nature of public
+services provision creates incentives for voters to demand narrow local
+representation and for local politicians to respond to specific requests
+and interests of a given group of constituencies within the city, often
+at the expense of others. We test our expectations by exploring
+variation in sub-municipal service provision in three major cities in
+Latin America: São Paulo, Bogotá, and Fortaleza. Our manuscript focuses
+on our empirical findings and the complex challenges facing scholars
+studying sub-municipal outcomes in multiple cases. Our results speak to
+the difficulties of overcoming underdevelopment and achieving democratic
+consolidation in the global south.</p>
+</div>
+<p><br /></p>
+<p><font size="3"> Cheibub, José, Andrea Junqueira, and Thiago Moreira.
+“A War of All Against All? Analysing Spatial Dependence in Intraparty
+Competition in Open-list Proportional Representation Systems.” <em>In
+progress</em>. </font></p>
+<button class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#BlockName7" center>
+Abstract
+</button>
+<div id="BlockName7" class="collapse">
+<p>In open-list proportional representation (OLPR) systems, candidates
+must obtain personal votes to succeed. A general expectation about these
+systems is that they induce intraparty competition and, ultimately, lead
+to weak political parties. Recent work has challenged this view,
+suggesting that even under very permissive conditions, candidate lists
+reflect a significant degree of coordination, which prevents the
+emergence of internecine competition among co-partisans. In this paper
+we develop a measure of intraparty competition at the level of the party
+list. We implement this measure with data from elections for the
+Brazilian national Chamber of Deputies at the precinct level. We show,
+first, that our measure detects the presence of a significant degree of
+intraparty competition but that, second, there is considerable variation
+across parties and across districts in how well the lists are
+coordinated. We explore some of the reasons for this variation and
+conclude with a discussion of next steps in research on open-list
+proportional representation electoral systems.</p>
+</div>
+<p><br /></p>
+<p><font size="3"> Junqueira, Andrea, Thiago Silva, and Guy Whitten.
+“Coalition Governance, Economic Voting, and Costs of Ruling in
+Presidential and Parliamentary Regimes.” <em>In progress</em>.
+</font></p>
+<button class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#BlockName9" center>
+Abstract
+</button>
+<div id="BlockName9" class="collapse">
+<p>Throughout the democratic world, the modal government is a coalition
+of two or more political parties. Such cooperative arrangements between
+political rivals create challenges for voters attempting to evaluate
+their government’s performance and have motivated extensive literature
+on the costs of ruling and economic voting in conditions where clarity
+of responsibility for governing outcomes is less than clear. Although
+this literature has advanced our understanding of the relevant dynamics
+on how voters identify who is responsible for implementing policies and
+how they appropriately reward or punish the government for its
+performance, the vast majority of what we know about these dynamics
+comes from data on parliamentary regimes. In this project, we will
+compare these dynamics between presidential and parliamentary regimes.
+Presidential democracies are fundamentally different from parliamentary
+democracies in that the chief executive is elected separately from the
+legislature and serves for a fixed term. These features raise
+interesting questions about how voters hold governments accountable,
+especially when the government is a coalition. To answer these
+questions, we leverage a new collection of data on election results from
+presidential and parliamentary regimes that spans over 70 years
+(1949-2020), augmented by survey data on voters’ knowledge about
+governments in these two regime types.</p>
+</div>
+<p><br /></p>
+<p><font size="3"> Junqueira, Andrea, Ali Kagalwala, Andrew Philips, and
+Guy Whitten. “Endogenous Pie: Modeling Simultaneity in Dynamic Models of
+Compositional Outcomes.” <em>In progress</em>. </font></p>
+<button class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#BlockName6" center>
+Abstract
+</button>
+<div id="BlockName6" class="collapse">
+<p>Recent advances in the analysis of compositional data have extended
+the applicability of compositional-outcome models from cross-sectional
+data to time series and time-series-cross-section data. These models can
+explicitly account for the temporal and spatial dynamics in one’s
+theory. While these advances are many, and important, the models
+presented thus far assume that regressors are weakly exogenous. In this
+letter, we relax the assumption of weak-exogeneity by introducing a
+model that accounts for simultaneity between compositional outcomes and
+endogenous non-compositional variables in time series data. Our approach
+involves creating what we call a compositional vector autoregression
+framework. We demonstrate the utility of our modeling approach with an
+application that analyzes income inequality in the United States.</p>
+</div>
+<p><br /></p>
+<p><font size="3"> Junqueira, Andrea, Ali Kagalwala, and Christine
+Lipsmeyer. “How Much Can Governments Truly Change Budgets? Fiscal
+Institutions and Budgetary Volatility.” <em>In progress</em>.
+</font></p>
+<button class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#BlockName8" center>
+Abstract
+</button>
+<div id="BlockName8" class="collapse">
+
+</div>
+<p><br /></p>
 
 
 

@@ -13,7 +13,8 @@
 
 <title>Andrea Junqueira</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -46,6 +47,7 @@
 
 
 
+
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
 
@@ -70,6 +72,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -222,7 +227,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -238,13 +243,13 @@ $(document).ready(function () {
   <a href="index.html">Home</a>
 </li>
 <li>
-  <a href="dissertation.html">Dissertation</a>
+  <a href="dissertation.html">Book Project</a>
 </li>
 <li>
   <a href="research.html">Research</a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Teaching
      
     <span class="caret"></span>
@@ -288,11 +293,19 @@ $(document).ready(function () {
 <font size="1">Photo by Bruno Thethe on Unsplash</font>
 </div>
 <p><br /></p>
-<p><img src="profile-modified.png" style="inline" width="210" align="left"/></p>
+<p><img src="IMG-3979-modified.png" style="inline" width="240" align="left"/></p>
 <div style="padding-left:300px">
-<p>I am currently a Ph.D candidate in the Department of Political Science at Texas A&amp;M University.</p>
-<p>My research interests focus on the intersection between economic development, representation, and comparative public policy.</p>
-<p>In my dissertation, I investigate how poverty and income inequality affect democratic politics, focusing on their consequences for security policy.</p>
+<p>I am currently a Postdoctoral Research Fellow in the Weidenbaum
+Center on the Economy, Government, and Public Policy at Washington
+University in St. Louis.</p>
+<p>My research interests focus on the intersection between economic
+development, representation, and comparative public policy.</p>
+<p>My book project is an extension of my dissertation and investigates
+how poverty and income inequality affect democratic politics, focusing
+on their consequences for security policy.</p>
+<p>I am also producing research in the areas of urban politics, gender
+and racial politics, coalition governments, and political
+methodology.</p>
 </div>
 
 

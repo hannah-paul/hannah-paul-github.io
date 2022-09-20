@@ -12,16 +12,18 @@ pagetitle: "Andrea Junqueira"
 <br /> 
 
 
-<img src="/home/andrea/Dropbox/website/andrea-junqueira.github.io/profile-modified.png" style="inline" width="210" align="left"/>
+<img src="/home/andrea/Dropbox/website/andrea-junqueira.github.io/IMG-3979-modified.png" style="inline" width="240" align="left"/>
 
 
 <div style="padding-left:300px">
 
-I am currently a Ph.D candidate in the Department of Political Science at Texas A\&M University. 
+I am currently a Postdoctoral Research Fellow in the Weidenbaum Center on the Economy, Government, and Public Policy at Washington University in St. Louis. 
 
 My research interests focus on the intersection between economic development, representation, and comparative public policy. 
 
-In my dissertation, I investigate how poverty and income inequality affect democratic politics, focusing on their consequences for security policy.
+My book project is an extension of my dissertation and investigates how poverty and income inequality affect democratic politics, focusing on their consequences for security policy.
+
+I am also producing research in the areas of urban politics, gender and racial politics, coalition governments, and political methodology.
 
 </div>
 

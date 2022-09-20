@@ -13,7 +13,8 @@
 
 <title>teaching.knit</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -46,6 +47,7 @@
 
 
 
+
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
 
@@ -70,6 +72,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -222,7 +227,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -238,13 +243,13 @@ $(document).ready(function () {
   <a href="index.html">Home</a>
 </li>
 <li>
-  <a href="dissertation.html">Dissertation</a>
+  <a href="dissertation.html">Book Project</a>
 </li>
 <li>
   <a href="research.html">Research</a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Teaching
      
     <span class="caret"></span>
@@ -285,33 +290,49 @@ $(document).ready(function () {
 
 <p><font size="6"> <strong>Teaching</strong></font></p>
 <p><br /></p>
-<p><font size="4"> <strong><em>Instructor of Record</em></strong> </font></p>
+<p><font size="4"> <strong><em>Instructor of Record</em></strong>
+</font></p>
 <p>
-POLS 323: Political Systems of Latin America<br> Undergraduate level<br> Texas A&amp;M University<br> Fall 2021 and Spring 2022<br> <a href="./survey_results_aggregate_20220103_1632.pdf" target="_blank">Evaluations (PDF)</a>
+POLS 323: Political Systems of Latin America<br> Undergraduate level<br>
+Texas A&amp;M University<br> Fall 2021 and Spring 2022<br>
+<a href="./survey_results_aggregate_20220103_1632.pdf" target="_blank">Evaluations
+Fall 2021 (PDF)</a> <br>
+<a href="./survey_results_aggregate_20220823_1014.pdf" target="_blank">Evaluations
+Spring 2022 (PDF)</a>
 </p>
 <p><br /></p>
-<p><font size="4"> <strong><em>Teaching Assistant (Graduate Level)</em></strong> </font></p>
+<p><font size="4"> <strong><em>Teaching Assistant (Graduate
+Level)</em></strong> </font></p>
 <p>
-POLS 621: Theory and Method in Comparative Politics<br> Texas A&amp;M University<br> Professor: Florian Hollenbach<br> Fall 2020
+POLS 621: Theory and Method in Comparative Politics<br> Texas A&amp;M
+University<br> Professor: Florian Hollenbach<br> Fall 2020
 </p>
 <p>
-POLS 602: Quantitative Political Analysis<br> Texas A&amp;M University<br> Professor: Paul Kellstedt<br> Fall 2019
+POLS 602: Quantitative Political Analysis<br> Texas A&amp;M
+University<br> Professor: Paul Kellstedt<br> Fall 2019
 </p>
 <p>
-FLP 0406: Quantitative Research in Political Science<br> University of São Paulo<br> Professor: Glauco Peres<br> Spring 2016
+FLP 0406: Quantitative Research in Political Science<br> University of
+São Paulo<br> Professor: Glauco Peres<br> Spring 2016
 </p>
 <p><br /></p>
-<p><font size="4"> <strong><em>Teaching Assistant (Undergraduate Level)</em></strong> </font></p>
+<p><font size="4"> <strong><em>Teaching Assistant (Undergraduate
+Level)</em></strong> </font></p>
 <p>
-POLS 209: Introduction to Political Science Research<br> Texas A&amp;M University<br> Professor: Dominique Lewis<br> Spring 2019
+POLS 209: Introduction to Political Science Research<br> Texas A&amp;M
+University<br> Professor: Dominique Lewis<br> Spring 2019
 </p>
 <p><br /></p>
-<p><font size="4"> <strong><em>Teaching Assistant (International Political Science Association IPSA Summer School)</em></strong> </font></p>
+<p><font size="4"> <strong><em>Teaching Assistant (International
+Political Science Association IPSA Summer School)</em></strong>
+</font></p>
 <p>
-Modern Regression Analysis<br> IPSA Summer School - Singapore<br> Professors: Guy Whitten and Katsunori Seki<br> July 2020
+Modern Regression Analysis<br> IPSA Summer School - Singapore<br>
+Professors: Guy Whitten and Katsunori Seki<br> July 2020
 </p>
 <p>
-Causal Inference and Field Experiments<br> IPSA Summer School - São Paulo<br> Professor: Florian Foos<br> July 2020
+Causal Inference and Field Experiments<br> IPSA Summer School - São
+Paulo<br> Professor: Florian Foos<br> July 2020
 </p>
 
 

@@ -8,7 +8,7 @@ navbar:
     - text: "Home"
       href: index.html     
 
-    - text: "Dissertation"
+    - text: "Book Project"
       href: dissertation.html
 
     - text: "Research"
