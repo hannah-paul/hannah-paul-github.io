@@ -55,7 +55,7 @@ parties and how economic performance shapes nativist appeals by opposition parti
 
 <font size="6"> Selected Works in Progress</font>
 
-<font size="3"> Junqueira, Andrea. “Socioeconomic Differences in Electoral Responses to Crime: How Poverty Reduces Politicians' Incentives to Reform Security Policies.” *In Progress*. </font>
+<font size="3"> Junqueira, Andrea. “The Political Economy of the Heavy Hand: How Poverty Reduces Politicians' Incentives to Reform Security Policies.” *In Progress*. </font>
 
 <button class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#BlockName5" center> Abstract </button>  
 <div id="BlockName5" class="collapse">  
