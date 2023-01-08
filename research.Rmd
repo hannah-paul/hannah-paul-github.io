@@ -17,7 +17,7 @@ Our analysis of Granger causal ordering between the four variables demonstrates 
 <br /> 
 
 
-<font size="3"> Junqueira, Andrea, and Patrick Cunha Silva. “Strengthening the Party, Weakening the Women: Unforeseen Consequences of Strengthening Institutions.” *Second round of review, The Journal of Politics*. </font> 
+<font size="3"> Junqueira, Andrea, and Patrick Cunha Silva. “Strengthening the Party, Weakening the Women: Unforeseen Consequences of Strengthening Institutions.” *Conditionally Accepted, The Journal of Politics*. </font> 
 
 <button class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#BlockName2" center> Abstract </button>  
 <div id="BlockName2" class="collapse">  
