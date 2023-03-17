@@ -4,19 +4,6 @@ title: ""
 
 <font size="6"> Publications, and Works Under Review</font>
 
-<font size="3"> Barberia, Lorena, Maria Leticia Claro Oliveira, Andrea Junqueira, Natalia Moreria, and Guy Whitten. 2021. “Should I Stay or Should I Go? Embracing Causal Heterogeneity in the Study of Pandemic Policy and Citizen Behavior.” *Social Science Quartely*. Available here:  <https://onlinelibrary.wiley.com/doi/10.1111/ssqu.13037>.</font> 
-
-<button class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#BlockName" center> Abstract </button>  
-<div id="BlockName" class="collapse">  
-
-*Objective*: To test for multicausality between government policy, health outcomes, economic performance, and citizen behavior during the COVID-19 global pandemic. *Methods*: We perform Granger-causality tests to explore the interrelationship between four endogenous variables, social distancing policy, home isolation, balance rate, and average weekly COVID-19 deaths, in the 26 states of Brazil. As exogenous variables, we included a linear time trend and a dummy for the week in which the World Health Organization (WHO) declared COVID-19 a global pandemic. *Results*:
-Our analysis of Granger causal ordering between the four variables demonstrates that there is significant heterogeneity across the Brazilian federation. These findings can be interpreted as underscoring that there is no common model applicable to all states, and that the dynamics are context-dependent. *Conclusion*: Our suggested approach allows researchers to account for the complex interrelationship between government policy, citizen behavior, the economy, and COVID-related health outcomes.
-
-</div>
-
-<br /> 
-
-
 <font size="3"> Junqueira, Andrea, and Patrick Cunha Silva. “Strengthening the Party, Weakening the Women: Unforeseen Consequences of Strengthening Institutions.” *Conditionally Accepted, The Journal of Politics*. </font> 
 
 <button class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#BlockName2" center> Abstract </button>  
@@ -29,7 +16,7 @@ The party politics literature suggests that an institutionalized party system ca
 <br /> 
 
 
-<font size="3"> Junqueira, Andrea, Ali Kagalwala, and Christine Lipsmeyer. “What's Your Problem? How Issue Ownership and Partisan Discourse Influence Personal Concerns.” *Accepted, Social Science Quartely*. </font>
+<font size="3"> Junqueira, Andrea, Ali Kagalwala, and Christine Lipsmeyer. 2023. “What's Your Problem? How Issue Ownership and Partisan Discourse Influence Personal Concerns.” *Social Science Quartely*. Available [here](https://doi.org/10.1111/ssqu.13259).</font>
 
 <button class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#BlockName3" center> Abstract </button>  
 <div id="BlockName3" class="collapse">  
@@ -41,7 +28,7 @@ The party politics literature suggests that an institutionalized party system ca
 <br /> 
 
 
-<font size="3"> Junqueira, Andrea, Thiago Silva, and Guy Whitten. “What About Us? Political Competition, Economic Performance, Immigration, and Nativist Appeals.” *Accepted, Social Science Quartely*. </font>
+<font size="3"> Junqueira, Andrea, Thiago Silva, and Guy Whitten. 2023. “What About Us? Political Competition, Economic Performance, Immigration, and Nativist Appeals.” *Social Science Quartely*. Available [here](https://doi.org/10.1111/ssqu.13240).</font>
 
 <button class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#BlockName4" center> Abstract </button>  
 <div id="BlockName4" class="collapse">  
@@ -52,6 +39,20 @@ parties and how economic performance shapes nativist appeals by opposition parti
 </div>
 
 <br /> 
+
+
+<font size="3"> Barberia, Lorena, Maria Leticia Claro Oliveira, Andrea Junqueira, Natalia Moreria, and Guy Whitten. 2021. “Should I Stay or Should I Go? Embracing Causal Heterogeneity in the Study of Pandemic Policy and Citizen Behavior.” *Social Science Quartely*. Available [here](https://onlinelibrary.wiley.com/doi/10.1111/ssqu.13037).</font> 
+
+<button class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#BlockName" center> Abstract </button>  
+<div id="BlockName" class="collapse">  
+
+*Objective*: To test for multicausality between government policy, health outcomes, economic performance, and citizen behavior during the COVID-19 global pandemic. *Methods*: We perform Granger-causality tests to explore the interrelationship between four endogenous variables, social distancing policy, home isolation, balance rate, and average weekly COVID-19 deaths, in the 26 states of Brazil. As exogenous variables, we included a linear time trend and a dummy for the week in which the World Health Organization (WHO) declared COVID-19 a global pandemic. *Results*:
+Our analysis of Granger causal ordering between the four variables demonstrates that there is significant heterogeneity across the Brazilian federation. These findings can be interpreted as underscoring that there is no common model applicable to all states, and that the dynamics are context-dependent. *Conclusion*: Our suggested approach allows researchers to account for the complex interrelationship between government policy, citizen behavior, the economy, and COVID-related health outcomes.
+
+</div>
+
+<br /> 
+
 
 <font size="6"> Selected Works in Progress</font>
 
