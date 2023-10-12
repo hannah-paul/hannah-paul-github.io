@@ -13,7 +13,7 @@
 
 <title>research.knit</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.24/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
@@ -30,8 +30,8 @@
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -132,11 +132,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -165,8 +169,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -174,16 +178,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -291,8 +288,9 @@ $(document).ready(function () {
 <p><font size="6"> Publications, and Works Under Review</font></p>
 <p><font size="3"> Junqueira, Andrea, and Patrick Cunha Silva.
 “Strengthening the Party, Weakening the Women: Unforeseen Consequences
-of Strengthening Institutions.” <em>Conditionally Accepted, The Journal
-of Politics</em>. </font></p>
+of Strengthening Institutions.” <em>The Journal of Politics</em>.
+Available <a
+href="https://www.journals.uchicago.edu/doi/10.1086/726966">here</a>.</font></p>
 <button class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#BlockName2" center>
 Abstract
 </button>
@@ -397,6 +395,51 @@ government policy, citizen behavior, the economy, and COVID-related
 health outcomes.</p>
 </div>
 <p><br /></p>
+<p><font size="3"> Janusz, Andrew, Patrick Cunha Silva, and Andrea
+Junqueira. “Electoral Role Models: Political Empowerment and Candidate
+Emergence.” <em>Under review</em>. </font></p>
+<button class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#BlockName7" center>
+Abstract
+</button>
+<div id="BlockName7" class="collapse">
+<p>Does the election of politicians from historically marginalized
+groups spur others to enter politics? Some political scientists and
+policymakers posit that the election of women and people of color to
+prominent political offices can inspire others to run for office, yet
+prior research has yielded mixed results. We contribute to the
+literature on representation by exploring the impact of role models on
+candidate emergence at the local level, where aspiring politicians
+typically begin to climb the political ladder. Using data from Brazilian
+elections and a set of regression discontinuity designs, we find no
+evidence that the election of a woman or Afro-Brazilian mayor spurs
+women and Afro-Brazilians to run for city council positions. Our
+results, which are robust to several alternative specifications, suggest
+that even if the election of a woman or minority politician inspires
+others to enter politics, barriers may impede them from running for
+office.</p>
+</div>
+<p><br /></p>
+<p><font size="3"> Eastman, Abbie, Andrea Junqueira, Ali Kagalwala,
+Andrew Philips, and Guy Whitten. “Volatile Pies: Modeling Compositional
+Volatility.” <em>Under review</em>. </font></p>
+<button class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#BlockName6" center>
+Abstract
+</button>
+<div id="BlockName6" class="collapse">
+<p><em>Objective</em>: To demonstrate the utility of modeling
+compositional volatility in substantive domains beyond budgeting.
+<em>Methods</em>: We show how to model compositional volatility on its
+own or as a part of a system of equations in which the component parts
+of the compositional outcome variable are also modeled.
+<em>Results</em>: Using data on the volatility of support for German
+political parties, we demonstrate the usefulness of stand-alone models
+of compositional volatility. Using data on the volatility of income
+shares in the United States, we demonstrate the usefulness of modeling
+volatility together with compositional components. <em>Conclusion</em>:
+There is considerable potential for modeling compositional
+volatility.</p>
+</div>
+<p><br /></p>
 <p><font size="6"> Selected Works in Progress</font></p>
 <p><font size="3"> Junqueira, Andrea. “The Political Economy of the
 Heavy Hand: How Poverty Reduces Politicians’ Incentives to Reform
@@ -423,7 +466,7 @@ the vote of low-income citizens relative to the wealthy.</p>
 </div>
 <p><br /></p>
 <p><font size="3"> Cooperman, Alicia, Andrea Junqueira, Thiago Moreira,
-and Manuela Muñoz. “How do Mega Cities Decentralize Local
+and Manuela Munoz. “How do Mega Cities Decentralize Local
 Representation? Precinct-Level Voting Behavior and Municipal Service
 Provision: Evidence from Brazil and Colombia.” <em>In progress</em>.
 </font></p>
@@ -442,15 +485,15 @@ representation and for local politicians to respond to specific requests
 and interests of a given group of constituencies within the city, often
 at the expense of others. We test our expectations by exploring
 variation in sub-municipal service provision in three major cities in
-Latin America: São Paulo, Bogotá, and Fortaleza. Our manuscript focuses
+Latin America: Sao Paulo, Bogota, and Fortaleza. Our manuscript focuses
 on our empirical findings and the complex challenges facing scholars
 studying sub-municipal outcomes in multiple cases. Our results speak to
 the difficulties of overcoming underdevelopment and achieving democratic
 consolidation in the global south.</p>
 </div>
 <p><br /></p>
-<p><font size="3"> Cheibub, José, Andrea Junqueira, and Thiago Moreira.
-“A War of All Against All? Analysing Spatial Dependence in Intraparty
+<p><font size="3"> Cheibub, Jose, Andrea Junqueira, and Thiago Moreira.
+“A War of All Against All? Analyzing Spatial Dependence in Intraparty
 Competition in Open-list Proportional Representation Systems.” <em>In
 progress</em>. </font></p>
 <button class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#BlockName10" center>
@@ -525,17 +568,6 @@ endogenous non-compositional variables in time series data. Our approach
 involves creating what we call a compositional vector autoregression
 framework. We demonstrate the utility of our modeling approach with an
 application that analyzes income inequality in the United States.</p>
-</div>
-<p><br /></p>
-<p><font size="3"> Junqueira, Andrea, Ali Kagalwala, and Christine
-Lipsmeyer. “How Much Can Governments Truly Change Budgets? Fiscal
-Institutions and Budgetary Volatility.” <em>In progress</em>.
-</font></p>
-<button class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#BlockName8" center>
-Abstract
-</button>
-<div id="BlockName8" class="collapse">
-
 </div>
 <p><br /></p>
 

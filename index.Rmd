@@ -3,7 +3,7 @@ title: ""
 pagetitle: "Andrea Junqueira"
 ---
 
-<img src="/home/andrea/Dropbox/website/andrea-junqueira.github.io/bruno-thethe-br.jpg" class="inline" width="1300"/>
+<img src="/Users/ajunqueira/Library/CloudStorage/Dropbox/website/andrea-junqueira.github.io/bruno-thethe-br.jpg" class="inline" width="1300"/>
 
 <div style="text-align: right"> <font size="1">Photo by Bruno Thethe on Unsplash</font> </div>
 
@@ -12,12 +12,12 @@ pagetitle: "Andrea Junqueira"
 <br /> 
 
 
-<img src="/home/andrea/Dropbox/website/andrea-junqueira.github.io/IMG-3979-modified.png" style="inline" width="240" align="left"/>
+<img src="/Users/ajunqueira/Library/CloudStorage/Dropbox/website/andrea-junqueira.github.io/IMG-3979-modified.png" style="inline" width="240" align="left"/>
 
 
 <div style="padding-left:300px">
 
-I am currently a Postdoctoral Research Fellow in the Weidenbaum Center on the Economy, Government, and Public Policy at Washington University in St. Louis. 
+I am an Assistant Professor in the Department of Political Science at Arkansas State University.
 
 My research interests focus on the intersection between economic development, representation, and comparative public policy. 
 

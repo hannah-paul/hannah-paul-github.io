@@ -7,11 +7,11 @@ title: ""
 <font size="3"> **Address:** </font>
 
 <p>Andrea Junqueira<br>
-Weidenbaum Center on the Economy, Government, and Public Policy<br>
-Washington University in St. Louis<br>
-Seigle Hall, Suite 170, Office 173<br>
-St. Louis-MO 63130-4899, United States.</p>
+Department of Political Science<br>
+Arkansas State University<br>
+Humanities and Social Science Building, Office 3020<br>
+Jonesboro-AR 72467, United States.</p>
 
 <font size="3"> **Email:** </font>
 
-<jandrea@wustl.edu>
+<ajunqueira@astate.edu>
