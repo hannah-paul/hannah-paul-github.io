@@ -4,7 +4,7 @@ title: ""
 
 <font size="6"> Publications, and Works Under Review</font>
 
-<font size="3"> Junqueira, Andrea, and Patrick Cunha Silva. "Strengthening the Party, Weakening the Women: Unforeseen Consequences of Strengthening Institutions." *The Journal of Politics*. Available [here](https://www.journals.uchicago.edu/doi/10.1086/726966).</font> 
+<font size="3"> Junqueira, Andrea, and Patrick Cunha Silva. 2023. "Strengthening the Party, Weakening the Women: Unforeseen Consequences of Strengthening Institutions." *The Journal of Politics*. Available [here](https://www.journals.uchicago.edu/doi/10.1086/726966).</font> 
 
 <button class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#BlockName2" center> Abstract </button>  
 <div id="BlockName2" class="collapse">  
