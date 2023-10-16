@@ -101,8 +101,8 @@ In democracies, how can coercive security policies that violate the rights of ma
 
 <font size="3"> Cooperman, Alicia, Andrea Junqueira, Thiago Moreira, and Manuela Munoz. "How do Mega Cities Decentralize Local Representation? Precinct-Level Voting Behavior and Municipal Service Provision: Evidence from Brazil and Colombia." *In progress*. </font>
 
-<button class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#BlockName7" center> Abstract </button>  
-<div id="BlockName7" class="collapse">  
+<button class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#BlockName11" center> Abstract </button>  
+<div id="BlockName11" class="collapse">  
 
 Rapid urbanization increases the need to produce public goods, particularly in developing countries, where underprovision and unequal access to services are common. Many public services and development projects are tied to specific neighborhoods, where citizens vote at polling stations whose vote shares are publicly known. We argue that even in "at large electoral systems," the local nature of public services provision creates incentives for voters to demand narrow local representation and for local politicians to respond to specific requests and interests of a given group of constituencies within the city, often at the expense of others. We test our expectations by exploring variation in sub-municipal service provision in three major cities in Latin America: Sao Paulo, Bogota, and Fortaleza. Our manuscript focuses on our empirical findings and the complex challenges facing scholars studying sub-municipal outcomes in multiple cases. Our results speak to the difficulties of overcoming underdevelopment and achieving democratic consolidation in the global south.
 
@@ -138,8 +138,8 @@ Throughout the democratic world, the modal government is a coalition of two or m
 
 <font size="3"> Junqueira, Andrea, Ali Kagalwala, Andrew Philips, and Guy Whitten. "Endogenous Pie: Modeling Simultaneity in Dynamic Models of Compositional Outcomes." *In progress*. </font>
 
-<button class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#BlockName6" center> Abstract </button>  
-<div id="BlockName6" class="collapse">  
+<button class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#BlockName12" center> Abstract </button>  
+<div id="BlockName12" class="collapse">  
 
 Recent advances in the analysis of compositional data have extended the applicability of compositional-outcome models from cross-sectional data to time series and time-series-cross-section data. These models can explicitly account for the temporal and spatial dynamics in one's theory. While these advances are many, and important, the models presented thus far assume that regressors are weakly exogenous. In this letter, we relax the assumption of weak-exogeneity by introducing a model that accounts for simultaneity between compositional outcomes and endogenous non-compositional
 variables in time series data. Our approach involves creating what we call a compositional vector
