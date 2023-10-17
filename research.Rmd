@@ -54,6 +54,17 @@ Our analysis of Granger causal ordering between the four variables demonstrates 
 <br /> 
 
 
+<font size="3"> Eastman, Abbie, Andrea Junqueira, Ali Kagalwala, Andrew Philips, and Guy Whitten. "Volatile Pies: Modeling Compositional Volatility." *Revise and resubmit*. </font>
+
+<button class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#BlockName6" center> Abstract </button>  
+<div id="BlockName6" class="collapse">  
+
+*Objective*: To demonstrate the utility of modeling compositional volatility in substantive domains beyond budgeting. *Methods*: We show how to model compositional volatility on its own or as a part of a system of equations in which the component parts of the compositional outcome variable are also modeled. *Results*: Using data on the volatility of support for German political parties, we demonstrate the usefulness of stand-alone models of compositional volatility. Using data on the volatility of income shares in the United States, we demonstrate the usefulness of modeling volatility together with compositional components. *Conclusion*: There is considerable potential for modeling compositional volatility.
+
+</div>
+
+<br /> 
+
 
 <font size="3"> Janusz, Andrew, Patrick Cunha Silva, and Andrea Junqueira. "Electoral Role Models: Political Empowerment and Candidate Emergence." *Under review*. </font>
 
@@ -68,16 +79,7 @@ Does the election of politicians from historically marginalized groups spur othe
 
 
 
-<font size="3"> Eastman, Abbie, Andrea Junqueira, Ali Kagalwala, Andrew Philips, and Guy Whitten. "Volatile Pies: Modeling Compositional Volatility." *Under review*. </font>
 
-<button class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#BlockName6" center> Abstract </button>  
-<div id="BlockName6" class="collapse">  
-
-*Objective*: To demonstrate the utility of modeling compositional volatility in substantive domains beyond budgeting. *Methods*: We show how to model compositional volatility on its own or as a part of a system of equations in which the component parts of the compositional outcome variable are also modeled. *Results*: Using data on the volatility of support for German political parties, we demonstrate the usefulness of stand-alone models of compositional volatility. Using data on the volatility of income shares in the United States, we demonstrate the usefulness of modeling volatility together with compositional components. *Conclusion*: There is considerable potential for modeling compositional volatility.
-
-</div>
-
-<br /> 
 
 
 
