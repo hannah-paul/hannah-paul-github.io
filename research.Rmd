@@ -54,7 +54,7 @@ Our analysis of Granger causal ordering between the four variables demonstrates 
 <br /> 
 
 
-<font size="3"> Eastman, Abbie, Andrea Junqueira, Ali Kagalwala, Andrew Philips, and Guy Whitten. "Volatile Pies: Modeling Compositional Volatility." *Revise and resubmit*. </font>
+<font size="3"> Eastman, Abbie, Andrea Junqueira, Ali Kagalwala, Andrew Philips, and Guy Whitten. "Volatile Pies: Modeling Compositional Volatility." *Revise and Resubmit*. </font>
 
 <button class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#BlockName6" center> Abstract </button>  
 <div id="BlockName6" class="collapse">  
@@ -66,7 +66,7 @@ Our analysis of Granger causal ordering between the four variables demonstrates 
 <br /> 
 
 
-<font size="3"> Janusz, Andrew, Patrick Cunha Silva, and Andrea Junqueira. "Electoral Role Models: Political Empowerment and Candidate Emergence." *Under review*. </font>
+<font size="3"> Janusz, Andrew, Patrick Cunha Silva, and Andrea Junqueira. "Electoral Role Models: Political Empowerment and Candidate Emergence." *Revise and Resubmit*. </font>
 
 <button class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#BlockName7" center> Abstract </button>  
 <div id="BlockName7" class="collapse">  
