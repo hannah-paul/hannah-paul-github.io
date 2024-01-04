@@ -1,15 +1,12 @@
-name: "Andrea Junqueira"
+name: "Hannah L. Paul"
 output_dir: "."
 
 navbar:
-  title: "Andrea Junqueira"
+  title: "Hannah L. Paul"
   right:
 
     - text: "Home"
       href: index.html     
-
-    - text: "Book Project"
-      href: dissertation.html
 
     - text: "Research"
       href: research.html
@@ -22,14 +19,14 @@ navbar:
           href: resources_teaching.html
 
     - text: "CV"
-      href: "./Junqueira_CV.pdf"
+      href: "./CV-Paul.pdf"
       class: "download"
 
     - text: "Contact"
       href: contact.html  
  
     - icon: fa-github fa-lg
-      href: http://github.com/andrea-junqueira/
+      href: http://github.com/hannah-paul/
 output:
   html_document:
     theme: yeti
