@@ -6,12 +6,12 @@ title: ""
 
 <font size="3"> **Address:** </font>
 
-<p>Andrea Junqueira<br>
-Department of Political Science<br>
-Arkansas State University<br>
-Humanities and Social Science Building, Office 3020<br>
-Jonesboro-AR 72467, United States.</p>
+<p>Hannah L. Paul<br>
+Truman School of Government and Public Affairs<br>
+University of Missouri<br>
+Locust Street Building, Office E337<br>
+Columbia-MO 65211, United States.</p>
 
 <font size="3"> **Email:** </font>
 
-<ajunqueira@astate.edu>
+<hannah.paul@missouri.edu>
