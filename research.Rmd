@@ -4,78 +4,66 @@ title: ""
 
 <font size="6"> Publications, and Works Under Review</font>
 
-<font size="3"> Junqueira, Andrea, and Patrick Cunha Silva. 2023. "Strengthening the Party, Weakening the Women: Unforeseen Consequences of Strengthening Institutions." *The Journal of Politics*. Available [here](https://www.journals.uchicago.edu/doi/10.1086/726966).</font> 
+<font size="3"> Paul, Hannah L., and Andrew Q. Philips. 2022. "What Goes Up Must Come Down: Theory and Model Specification of Threshold Dynamics." *Social Science Quarterly*. Available [here] (https://www.dropbox.com/scl/fi/80bix2ncilthb9theu1xw/Paul-and-Philips-2022-SSQ.pdf?rlkey=zl1z0bk3n2evsua4ohikh0rbk&dl=0).</font> 
 
 <button class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#BlockName2" center> Abstract </button>  
 <div id="BlockName2" class="collapse">  
 
-The party politics literature suggests that an institutionalized party system can be key for well-functioning democracies. Do the benefits of strong parties also extend to women's descriptive representation? We argue that increasing parties' strength can perpetuate and even intensify parties' pre-existing patterns of exclusion of particular groups, including women, when elites are gender-biased. While stronger parties are better able to carry out their organizational goals, we contend that increasing gender equity is often not part of such goals. To evaluate this argument, we combine an exogenous electoral reform that increased parties' ability to control their members in Brazil with a regression discontinuity design. We find that while the reform increased parties' ability to pursue their organizational goals, it increased the gap in votes between men and women. Further, we demonstrate that the behavior of men towards women co-partisans drives this pattern. These findings highlight the unintended consequences of institutional engineering.
+*Objectives*: Despite the frequent use of time series models in the social sciences, they have often remained within the confines of assuming purely linear dynamic effects. We contend that many theories involve relationships that are inherently non-linear. *Methods*: We discuss several approaches to modeling a variety of these types of non-linear autoregressive data-generating processes, specifically threshold effects. *Results*: We replicate and extend a recent analysis, and show evidence of threshold processes. *Conclusion*: In doing so, we show that threshold models allow us to test richer, more complex theoretical implications about dynamic effects.
 
 </div>
 
 <br /> 
 
 
-<font size="3"> Junqueira, Andrea, Ali Kagalwala, and Christine Lipsmeyer. 2023. "What's Your Problem? How Issue Ownership and Partisan Discourse Influence Personal Concerns." *Social Science Quartely*. Available [here](https://doi.org/10.1111/ssqu.13259).</font>
+<font size="3"> Jordan, Soren, Hannah L. Paul, and Andrew Q. Philips. 2022. "How to Cautiously Uncover the "Black Box" of Machine Learning Models for Legislative Scholars." *Legislative Studies Quarterly*. Available [here](https://www.dropbox.com/scl/fi/sovq31vqtvls5wb6yi2kn/Jordan-Paul-and-Philips-2022-LSQ.pdf?rlkey=jonryktcs1de5vjq2daswfwek&dl=0).</font>
 
 <button class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#BlockName3" center> Abstract </button>  
 <div id="BlockName3" class="collapse">  
 
-*Objective*: Politics around the world has become more divisive. We ask if the influence of far-right parties extends to personal concerns and argue that a theory combining issue ownership with partisan discourse can explain personal policy salience. *Method*: Using aggregate Eurobarometer data, we create compositional models to estimate the effect of partisan discourse on pocketbook policy concerns. We focus on whether these elite messages influence concerns differently depending on the presence of a far-right party. *Results*: We find that more partisan discussion about law-and-order issues influences relative personal concerns on security and immigration issues across ideological groups when a far-right party is present. *Conclusions*: Our findings suggest that an "issue owning" party can alter how people interpret politics and view their own concerns. Far-right parties influence the perceptions of people across ideologies. Research showed that these parties can influence parties and voters; we show that they can shape personal perceptions.
+Machine learning models, especially ensemble and tree-based approaches, offer great promise to legislative scholars. However, they are heavily underutilized outside of narrow applications to text and networks. We believe this is because they are difficult to interpret: while the models are extremely flexible, they have been criticized as "black box" techniques due to their difficulty in visualizing the effect of predictors on the outcome of interest. In order to make these models more useful for legislative scholars, we introduce a framework integrating machine learning models with traditional parametric approaches. We then review three interpretative plotting strategies that scholars can use to bring a substantive interpretation to their machine learning models. For each, we explain the plotting strategy, when to use it, and how to interpret it. We then put these plots in action by revisiting two recent articles from *Legislative Studies Quarterly*.
 
 </div>
 
 <br /> 
 
 
-<font size="3"> Junqueira, Andrea, Thiago Silva, and Guy Whitten. 2023. "What About Us? Political Competition, Economic Performance, Immigration, and Nativist Appeals." *Social Science Quartely*. Available [here](https://doi.org/10.1111/ssqu.13240).</font>
+<font size="3"> Funk, Kendall D. Funk, Hannah L. Paul, and Andrew Q. Philips. 2021. "Point Break: Using Machine Learning to Uncover a Critical Mass in Women's Representation." *Political Science Research and Methods*. Available [here](https://www.dropbox.com/scl/fi/15a0ow9bz9a59aem19lmg/Funk-Paul-and-Philips-2021-PSRM.pdf?rlkey=8xdf1849sn1qmqkhqdgchgtfo&dl=0).</font>
 
 <button class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#BlockName4" center> Abstract </button>  
 <div id="BlockName4" class="collapse">  
 
-*Objective*: To develop and test theoretical expectations about when political parties will make more or fewer nativist appeals in their electoral campaigns. *Methods*: We use spatial autoregressive models to test our claims about the ways in which electoral competition drives nativist appeals. *Results*: We find strong support for our theoretical expectations on how spatial and temporal processes influence parties' nativist appeals. We also find strong support for our expectations on how the percentage of foreign-born population shapes nativist appeals by government
-parties and how economic performance shapes nativist appeals by opposition parties. *Conclusion*: Spatial party competition conditions the relationship between economic performance, immigration, and parties' nativist appeals, revealing the strategic behavior of political parties in their choices of when to make nativist appeals more or less prominent in their electoral campaigns.
+Decades of research has debated whether women first need to reach a "critical mass" in the legislature before they can effectively influence legislative outcomes. This study contributes to the debate using supervised tree-based machine learning to study the relationship between increasing variation in women's legislative representation and the allocation of government expenditures in three policy areas: education, healthcare, and defense. We find that women's representation predicts spending in all three areas. We also find evidence of critical mass effects as the relationships between women's representation and government spending are nonlinear. However, beyond critical mass, our research points to a potential critical mass interval or critical limit point in women's representation. We offer guidance on how these results can inform future research using standard parametric models.
 
 </div>
 
 <br /> 
 
 
-<font size="3"> Barberia, Lorena, Maria Leticia Claro Oliveira, Andrea Junqueira, Natalia Moreria, and Guy Whitten. 2021. "Should I Stay or Should I Go? Embracing Causal Heterogeneity in the Study of Pandemic Policy and Citizen Behavior." *Social Science Quartely*. Available [here](https://onlinelibrary.wiley.com/doi/10.1111/ssqu.13037).</font> 
+<font size="3"> Paul, Hannah L. and Jennifer Fitzgerald. 2021. "The Dynamics of Issue Salience: Immigration and Public Opinion." *Polity*. Available [here](https://www.dropbox.com/scl/fi/edcnfjzv7fp2gh21bspsv/Paul-and-Fitzgerald-2021-Polity.pdf?rlkey=kcedvzxsj701v2vj3op1es06u&dl=0).</font> 
 
 <button class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#BlockName" center> Abstract </button>  
 <div id="BlockName" class="collapse">  
 
-*Objective*: To test for multicausality between government policy, health outcomes, economic performance, and citizen behavior during the COVID-19 global pandemic. *Methods*: We perform Granger-causality tests to explore the interrelationship between four endogenous variables, social distancing policy, home isolation, balance rate, and average weekly COVID-19 deaths, in the 26 states of Brazil. As exogenous variables, we included a linear time trend and a dummy for the week in which the World Health Organization (WHO) declared COVID-19 a global pandemic. *Results*:
-Our analysis of Granger causal ordering between the four variables demonstrates that there is significant heterogeneity across the Brazilian federation. These findings can be interpreted as underscoring that there is no common model applicable to all states, and that the dynamics are context-dependent. *Conclusion*: Our suggested approach allows researchers to account for the complex interrelationship between government policy, citizen behavior, the economy, and COVID-related health outcomes.
+Issue salience is an important dimension of public opinion and democratic politics. When mass publics are deeply concerned about particular societal issues, they can shape political debates, contests, agendas, and outcomes. Given the shifting politicization of certain issues in advanced democracies and the heightened importance of people's issue positions for their vote choices, fresh insights into the dynamics of issue salience are increasingly valuable. A review of existing research reveals that we have a great deal to learn about the way salience emerges and shifts among regular people in democratic societies. Using seventeen waves of panel survey data from Germany, we find that being an immigrant affects how concerning one finds certain issues (the economy in general and immigration to Germany) but not others (such as crime in Germany). When we take time seriously and model change, we find that where salience gaps existed between native Germans and immigrants at the start of the survey, they weaken progressively for public issues.
 
 </div>
 
 <br /> 
 
 
-<font size="3"> Eastman, Abbie, Andrea Junqueira, Ali Kagalwala, Andrew Philips, and Guy Whitten. "Volatile Pies: Modeling Compositional Volatility." *Revise and Resubmit*. </font>
+<font size="3"> Paul, Hannah L., Wendy L. Hansen, and Prakash Adhikari. "Personalized Politics: Experimental Evidence for How Perceptions of Political Leaders Shape Refugees' Political Trust" *Under Review*. </font>
 
 <button class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#BlockName6" center> Abstract </button>  
 <div id="BlockName6" class="collapse">  
 
-*Objective*: To demonstrate the utility of modeling compositional volatility in substantive domains beyond budgeting. *Methods*: We show how to model compositional volatility on its own or as a part of a system of equations in which the component parts of the compositional outcome variable are also modeled. *Results*: Using data on the volatility of support for German political parties, we demonstrate the usefulness of stand-alone models of compositional volatility. Using data on the volatility of income shares in the United States, we demonstrate the usefulness of modeling volatility together with compositional components. *Conclusion*: There is considerable potential for modeling compositional volatility.
+Political trust is a foundational attitude for other political attitudes and forms of political engagement. With over 27 million refugees worldwide, and pressure on established democracies to engage in more resettlement, we consider what causes a resettled refugee to become more trusting of their political leaders. We challenge existing theories on the importance of policy outcomes, arguing instead that people with forced migration backgrounds are more oriented to use evaluations of the character of political leaders in establishing trustworthiness. To test this hypothesis, we use an original survey experiment administered to a sample of Bhutanese refugees resettled in Michigan. Our results show that resettled refugees who read a personalized information presentation about Governor Gretchen Whitmer become more trusting of her compared to participants in the control group. While modest in the size of its effect, this finding suggests that resettled refugees use character evaluations to inform their political attitudes.
 
 </div>
 
 <br /> 
 
 
-<font size="3"> Janusz, Andrew, Patrick Cunha Silva, and Andrea Junqueira. "Electoral Role Models: Political Empowerment and Candidate Emergence." *Revise and Resubmit*. </font>
-
-<button class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#BlockName7" center> Abstract </button>  
-<div id="BlockName7" class="collapse">  
-
-Does the election of politicians from historically marginalized groups spur others to enter politics? Some political scientists and policymakers posit that the election of women and people of color to prominent political offices can inspire others to run for office, yet prior research has yielded mixed results. We contribute to the literature on representation by exploring the impact of role models on candidate emergence at the local level, where aspiring politicians typically begin to climb the political ladder. Using data from Brazilian elections and a set of regression discontinuity designs, we find no evidence that the election of a woman or Afro-Brazilian mayor spurs women and Afro-Brazilians to run for city council positions. Our results, which are robust to several alternative specifications, suggest that even if the election of a woman or minority politician inspires others to enter politics, barriers may impede them from running for office.
-
-</div>
-
-<br /> 
 
 
 
@@ -89,63 +77,47 @@ Does the election of politicians from historically marginalized groups spur othe
 
 <font size="6"> Selected Works in Progress</font>
 
-<font size="3"> Junqueira, Andrea. "The Political Economy of the Heavy Hand: How Poverty Reduces Politicians' Incentives to Reform Security Policies." *In Progress*. </font>
+<font size="3"> Paul, Hannah L. "Refuge and Representation: The E↵ect of Integration Courses on Resettled Refugees' Party Support in Germany." *In Progress*. </font>
 
 <button class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#BlockName5" center> Abstract </button>  
 <div id="BlockName5" class="collapse">  
 
-In democracies, how can coercive security policies that violate the rights of many be so pervasive, even when those most affected by their negative consequences are a large share of the population? I argue that the explanation can be found by examining voters' incentives to demand security vis-à-vis other policies. Among low-income citizens, security concerns compete with other immediate needs, including food and shelter, thereby reducing the relative importance of violence as the primary driver of political demands. In response, strategic politicians become less responsive to the preferences of the poor on this policy dimension. With a multi-method research approach, I test the implications of my theory using a difference-in-differences-in-differences (DDD) design of electoral results and an original survey experiment with politicians. I find that low-income voters are less responsive to violence shocks and that politicians emphasize security concerns less when trying to attract the vote of low-income citizens relative to the wealthy.
-
+What pathways do resettled refugees take become included in the politics of their new home countries? I examine refugee political integration through the lens of political party support using a panel survey of resettled refugees in Germany. I find that attending a state-run integration course increases the likelihood of supporting a political party and that host country language learning mediates this relationship. This research contributes to ongoing debates about political engagement and refugee integration by showing that the state has a role to play in incorporating newcomers into democratic life through integration courses. These findings inform our understanding of ways to accommodate the political integration of growing refugee populations across countries in Europe, North America, and other refugee-receiving democracies.
 </div>
 
 <br /> 
 
 
-<font size="3"> Cooperman, Alicia, Andrea Junqueira, Thiago Moreira, and Manuela Munoz. "How do Mega Cities Decentralize Local Representation? Precinct-Level Voting Behavior and Municipal Service Provision: Evidence from Brazil and Colombia." *In progress*. </font>
+<font size="3"> Paul, Hannah L. "Empathy, Partisan Leaning, and Support for Immigrants in Sweden." *In progress*. </font>
 
 <button class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#BlockName11" center> Abstract </button>  
 <div id="BlockName11" class="collapse">  
 
-Rapid urbanization increases the need to produce public goods, particularly in developing countries, where underprovision and unequal access to services are common. Many public services and development projects are tied to specific neighborhoods, where citizens vote at polling stations whose vote shares are publicly known. We argue that even in "at large electoral systems," the local nature of public services provision creates incentives for voters to demand narrow local representation and for local politicians to respond to specific requests and interests of a given group of constituencies within the city, often at the expense of others. We test our expectations by exploring variation in sub-municipal service provision in three major cities in Latin America: Sao Paulo, Bogota, and Fortaleza. Our manuscript focuses on our empirical findings and the complex challenges facing scholars studying sub-municipal outcomes in multiple cases. Our results speak to the difficulties of overcoming underdevelopment and achieving democratic consolidation in the global south.
+Why does support for immigrants vary? I argue that natural empathy, as opposed to solicited empathy, is an important explanation for opinion formation about immigrants. Using a cross-section of data from the Swedish Political Socialization Panel survey, I find that empathetic individuals are more likely to report supportive attitudes toward immigrants compared to those with lower levels of natural empathy. I explore the possibility that that support for left leaning parties mediates empathy's positive association with support for immigrants, given empirical work which shows a link between empathy and ideological liberalism. Using a causal mediation analysis, I show that support for left leaning parties only partially explains the positive relationship between empathy and support for immigrants, and that the direct effect of empathy is much larger. This study contributes to our understanding of people's attitudes about immigrants by revealing the importance of people's psychological traits in forming attitudes about societal groups.
 
 </div>
 
 <br /> 
 
 
-<font size="3"> Cheibub, Jose, Andrea Junqueira, and Thiago Moreira. "A War of All Against All? Analyzing Spatial Dependence in Intraparty Competition in Open-list Proportional Representation Systems." *In progress*. </font>
+<font size="3"> Paul, Hannah L. "Personalizing Politics: An Experimental Examination of the Effects of a Refugee's First-Person Narrative on Support for Refugees." *In progress*. </font>
 
 <button class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#BlockName10" center> Abstract </button>  
 <div id="BlockName10" class="collapse">  
 
-In open-list proportional representation (OLPR) systems, candidates must obtain personal votes to succeed. A general expectation about these systems is that they induce intraparty competition and, ultimately, lead to weak political parties. Recent work has challenged this view, suggesting that even under very permissive conditions, candidate lists reflect a significant degree of coordination, which prevents the emergence of internecine competition among co-partisans. In this paper we develop a measure of intraparty competition at the level of the party list. We implement this measure with data from elections for the Brazilian national Chamber of Deputies at the precinct level. We show, first, that our measure detects the presence of a significant degree of intraparty competition but that, second, there is considerable variation across parties and across districts in how well the lists are coordinated. We explore some of the reasons for this variation and conclude with a discussion of next steps in research on open-list proportional representation electoral systems.
-
+What explains attitudes towards outgroups? Existing research demonstrates that it is more difficult to cultivate support for an outgroup than to foster opposition. Examining refugees as an outgroup, I use an experimental design to test the effects of refugee narratives at different levels of personalization on people’s political attitudes. Extant work suggests that the frames used to describe immigrants influence people’s attitudes about them, suggesting that positive, personal frames should foster favorable attitudes toward this outgroup. In contrast to these theoretical implications, I find that adding and increasing the level of personalization in a description of refugee migration does not cause people to become more empathetic toward or supportive of refugees in their attitudes or behavior. These findings bear important implications for how we understand stereotype disruption and for NGOs’ strategies to foster more support for immigrants and refugees. My findings suggest that personalizing language may not be as useful as previously thought and invites scholars of attitudes about refugees and refugees advocates to reconsider specific approaches to fostering support for refugees.
 </div>
 
 <br /> 
 
 
 
-<font size="3"> Junqueira, Andrea, Thiago Silva, and Guy Whitten. "Coalition Governance, Economic Voting, and Costs of Ruling in Presidential and Parliamentary Regimes." *In progress*. </font>
+<font size="3"> Paul, Hannah L. and Courtney J. Nava. "The Limits of Empathy: An Experiment on Race, Empathy, and Attitudes Toward Refugees." *In progress*. </font>
 
 <button class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#BlockName9" center> Abstract </button>  
 <div id="BlockName9" class="collapse">  
 
-Throughout the democratic world, the modal government is a coalition of two or more political parties. Such cooperative arrangements between political rivals create challenges for voters attempting to evaluate their government's performance and have motivated extensive literature on the costs of ruling and economic voting in conditions where clarity of responsibility for governing outcomes is less than clear. Although this literature has advanced our understanding of the relevant dynamics on how voters identify who is responsible for implementing policies and how they appropriately reward or punish the government for its performance, the vast majority of what we know about these dynamics comes from data on parliamentary regimes. In this project, we will compare these dynamics between presidential and parliamentary regimes. Presidential democracies are fundamentally different from parliamentary democracies in that the chief executive is elected separately from the legislature and serves for a fixed term. These features raise interesting questions about how voters hold governments accountable, especially when the government is a coalition. To answer these questions, we leverage a new collection of data on election results from presidential and parliamentary regimes that spans over 70 years (1949-2020), augmented by survey data on voters' knowledge about governments in these two regime types.
-
-</div>
-
-<br /> 
-
-
-<font size="3"> Junqueira, Andrea, Ali Kagalwala, Andrew Philips, and Guy Whitten. "Endogenous Pie: Modeling Simultaneity in Dynamic Models of Compositional Outcomes." *In progress*. </font>
-
-<button class="btn btn-primary btn-sm" data-toggle="collapse" data-target="#BlockName12" center> Abstract </button>  
-<div id="BlockName12" class="collapse">  
-
-Recent advances in the analysis of compositional data have extended the applicability of compositional-outcome models from cross-sectional data to time series and time-series-cross-section data. These models can explicitly account for the temporal and spatial dynamics in one's theory. While these advances are many, and important, the models presented thus far assume that regressors are weakly exogenous. In this letter, we relax the assumption of weak-exogeneity by introducing a model that accounts for simultaneity between compositional outcomes and endogenous non-compositional
-variables in time series data. Our approach involves creating what we call a compositional vector
-autoregression framework. We demonstrate the utility of our modeling approach with an application that analyzes income inequality in the United States.
+Refugees face a number of challenges to successful integration, including hostility from the members of their increasingly polarized host country (Tesler 2021). While research points to empathy as a useful tool for cultivating supportive attitudes toward refugees, the political science literature remains unclear about the conditions under which empathy has pro-social effects, specifically with regard to racial dynamics. In this study, we test whether people are biased regard ing which resettled refugees they experience empathy for. Does empathy allow people to overcome their racial in-group preferences, or does it magnify them? To assess this question, we administer a web experiment to a sample of 50 percent Black and 50 percent white U.S. Citizens that is nationally representative of the characteristics within each group. Half of the respondents are primed to consider refugees who share their racial in-group and half are primed to consider their racial out-group when evaluating their support for refugees. We measure respondents' level of parochial empathy to determine the extent to which respondents feel more empathy towards refugees who share their race, and if those differences in empathy change how supportive they are towards refugees. We expect that we will observe a racial in-group preference amongst white respondents, but will not observe this same preference amongst Black respondents, conditional on the degree of parochial empathy the respondent exhibit
 
 </div>
 
