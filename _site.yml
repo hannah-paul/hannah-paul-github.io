@@ -12,12 +12,7 @@ navbar:
       href: research.html
     
     - text: "Teaching"
-      menu:
-        - text: "Experience"
-          href: teaching.html
-        - text: "Resources"
-          href: resources_teaching.html
-
+  
     - text: "CV"
       href: "./CV-Paul.pdf"
       class: "download"
